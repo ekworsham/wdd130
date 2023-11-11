@@ -226,7 +226,7 @@ nav {
 
 /*starting sub page*/
 .rivers-grid {
-    max-height: 1400px;
+    max-height: 1500px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
