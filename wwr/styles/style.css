@@ -223,3 +223,44 @@ nav {
         margin-top: 25px;
     }
 }
+
+/*starting sub page*/
+.rivers-grid {
+    max-height: 1400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#river-options {
+    font-size: 25px;
+}
+.hooch-msg {
+    font-size: 25px;
+    text-justify: auto;
+    margin: 50px;
+    padding: 50px;
+}
+.ocoee-msg {
+    font-size: 25px;
+    text-justify: auto;
+    margin: 50px;
+    padding: 50px;
+}
+.nantahala-msg {
+    font-size: 25px;
+    text-justify: auto;
+    margin: 50px;
+    padding: 50px;
+}
+#river-options {
+    text-align: center;
+}
+.rivers-title {
+    text-align: center;
+}
+.rivers-intro {
+    text-align: center;
+}
+footer {
+    max-height: 30px;
+}
