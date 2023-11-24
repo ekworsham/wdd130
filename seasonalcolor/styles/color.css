@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
+#content {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+html{
+    background-color:#e5cbb9;
+}
+
+:root {
+    --primary-color: #e6b28f;
+    --secondary-color: #e5cbb9;
+    --accent1-color: #e79864;
+    --accent2-color: #e6e6e6;
+}
+header {
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #e79864;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.logo {
+    justify-self: center;
+    align-self: center;
+}
+nav a {
+    color: white;
+    font-size: 25px;
+}
+#hero-msg{
+    text-align: center;
+}
+#hero-msg h3 {
+    font-size: 50px;
+    font-family: Kausham Script;
+}
+#hero-msg p {
+    font-size: 25px;
+}
+#plants {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+footer {
+    color: white;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 450px 300px 300px auto;
+    justify-items: center;
+    align-items: center;
+    background-color: #e79864;
+    border: 5px solid black;
+}
+footer a {
+    color: white;
+    font-size: 20px;
+}
+.social {
+    padding-top: 5px;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
