@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 
-
+html {
+    background-color: #e6b28f;
+}
 
 #content {
     max-width: 1400px;
