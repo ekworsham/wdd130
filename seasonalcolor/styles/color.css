@@ -6,7 +6,7 @@ html {
 
 #content {
    
-    margin: 0 auto;
+   margin: 0 auto;
 }
 :root {
     --primary-color: #e6b28f;
@@ -86,6 +86,7 @@ p {
 }
  /* choice section: */
 #choice {
+    background-color: burlywood;
     margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 10px;
@@ -113,6 +114,7 @@ p {
 
  /* Bed Preperation section: */
  #bed_prep {
+    background-color: antiquewhite;
     margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 10px;
@@ -143,6 +145,7 @@ p {
 
  /* Setting section */
 #setting-out {
+    background-color: burlywood;
     display: grid;
     grid-template-columns: 1fr 700px 10px;
     grid-template-rows: 40px 80px 1fr 10px;
