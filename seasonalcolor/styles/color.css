@@ -5,44 +5,52 @@ html {
 }
 
 #content {
-   
-   margin: 0 auto;
+    margin: 0 auto;
 }
+
 :root {
     --primary-color: #e6b28f;
     --secondary-color: #e5cbb9;
     --accent1-color: #e79864;
     --accent2-color: #e6e6e6;
 }
+
 header {
     border: 5px solid black;
     display: grid;
     grid-template-columns: 150px auto;
     background-color: #e79864;
 }
+
 nav {
     display: flex;
     justify-content: space-around;
     padding-top: 30px;
 }
+
 .logo {
     justify-self: center;
     align-self: center;
 }
+
 nav a {
     color: white;
     font-size: 25px;
 }
+
 #hero-msg {
     text-align: center;
 }
+
 #hero-msg h3 {
     font-size: 50px;
     font-family: Kausham Script;
 }
+
 #hero-msg p {
     font-size: 25px;
 }
+
 #plants {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -60,90 +68,127 @@ footer {
     background-color: #e79864;
     border: 5px solid black;
 }
+
 footer a {
     color: white;
     font-size: 20px;
 }
+
 .social {
     padding-top: 5px;
 }
+
 p {
     font-size: 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
- /* CHILD page */
 
-#install-msg, #maint-msg {
+/* CHILD page */
+
+#install-msg,
+#maint-msg {
     text-align: center;
 }
-#install-msg h3, #maint-msg h3 {
+
+#install-msg h3,
+#maint-msg h3 {
     font-size: 50px;
     font-family: Kausham Script;
 }
-#install-msg p, #maint-msg p {
+
+#install-msg p,
+#maint-msg p {
     font-size: 25px;
 }
- /* choice section: */
-#choice, #inspect {
+
+/* choice section: */
+#choice,
+#inspect,
+#fert {
     background-color: burlywood;
     margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 10px;
-    grid-template-rows: 40px 80px 1fr 10px;
+    grid-template-rows: 50px 80px 1fr 10px;
     justify-items: center;
     align-items: center;
     border: 5px solid black;
 }
-#choice h3, #inspect h3 {
+
+#choice h3,
+#inspect h3,
+#fert h3 {
     grid-column: 1/3;
     font-size: 40px;
 }
-#choice p, #inspect p {
+
+#choice p {
     grid-column: 1/3;
-  
+
 }
-#choice img, #inspect img {
+
+#choice img,
+#inspect img,
+#fert img {
     align-self: stretch;
     grid-column: 2/3;
 }
-#inspect img {
-   grid-row: 2/4;
+
+#inspect img,
+#fert img {
+    grid-row: 2/4;
 }
-#choice ol, #inspect ol {
+
+#choice ol,
+#inspect ol,
+#fert ol {
     font-size: 20px;
     grid-row: 3;
 }
 
- /* Bed Preperation section: */
- #bed_prep {
+/* Bed Preperation section: */
+#bed_prep,
+#groom {
     background-color: antiquewhite;
     margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 10px;
-    grid-template-rows: 40px 80px 1fr 10px;
+    grid-template-rows: 50px 80px 1fr 10px;
     justify-items: center;
     align-items: center;
     border: 5px solid black;
 }
-#bed_prep h3 {
+
+#bed_prep h3,
+#groom h3 {
     grid-column: 1/3;
     font-size: 40px;
 }
+
 #bed_prep p {
     grid-column: 1/3;
-  
-}
-#bed_prep img {
-    
-    grid-column: 2/3;
-}
-#bed_prep ol {
-    font-size: 20px;
-    grid-row: 3;
+
 }
 
- /* Setting section */
+#bed_prep img {
+    grid-column: 2/3;
+}
+
+#groom img {
+    grid-row: 2/4;
+    grid-column: 2/3;
+    align-self: stretch;
+}
+
+#bed_prep ol,
+#groom ol {
+    font-size: 20px;
+    grid-row: 3;
+
+}
+
+/* Setting section */
 #setting-out {
     background-color: burlywood;
     display: grid;
@@ -153,19 +198,23 @@ p {
     align-items: center;
     border: 5px solid black;
 }
+
 #setting-out h3 {
     grid-column: 1/3;
     font-size: 40px;
 }
+
 #setting-out p {
     grid-column: 1/3;
-  
+
 }
+
 #setting-out img {
     align-self: stretch;
     grid-column: 1/2;
     align-content: start;
 }
+
 #setting-out ol {
     font-size: 20px;
     grid-row: 3;
