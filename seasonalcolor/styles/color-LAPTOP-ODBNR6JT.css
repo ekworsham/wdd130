@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 
-
 html {
     background-color: #e5cbb9;
 }
@@ -8,6 +7,7 @@ html {
 #content {
     margin: 0 auto;
 }
+
 
 :root {
     --primary-color: #e6b28f;
@@ -27,7 +27,7 @@ nav {
     display: flex;
     justify-content: space-around;
     padding-top: 30px;
-
+    
 }
 
 .logo {
@@ -61,7 +61,6 @@ nav a {
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
-
 }
 
 footer {
@@ -109,10 +108,9 @@ p {
     font-size: 25px;
 }
 
-li {
+li{
     margin-bottom: 20px;
 }
-
 /* choice section: */
 #choice,
 #inspect,
@@ -136,6 +134,7 @@ li {
 
 #choice p {
     grid-column: 1/3;
+
 }
 
 #choice img,
@@ -178,6 +177,7 @@ li {
 
 #bed_prep p {
     grid-column: 1/3;
+
 }
 
 #bed_prep img {
@@ -194,6 +194,7 @@ li {
 #groom ol {
     font-size: 20px;
     grid-row: 3;
+
 }
 
 /* Setting section */
@@ -201,14 +202,12 @@ li {
     background-color: burlywood;
     margin: 0;
     display: grid;
-    grid-template-columns: 1000px 1fr 10px;
-    grid-template-rows: 60px 40px 650px 10px;
+    grid-template-columns: 1fr 700px 10px;
+    grid-template-rows: 50px 80px 550px 10px;
     justify-items: center;
     align-items: center;
     border: 5px solid black;
-    box-sizing: border-box;
 }
-
 #setting-out h3 {
     grid-column: 1/3;
     font-size: 40px;
@@ -216,11 +215,14 @@ li {
 
 #setting-out p {
     grid-column: 1/3;
+
 }
 
 #setting-out img {
     grid-row: 3/4;
     grid-column: 2;
+    
+    
 }
 
 #setting-out ol {
